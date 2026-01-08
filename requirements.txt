@@ -1,0 +1,7 @@
+diff --git a/requirements.txt b/requirements.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..a7928711d6d77507f12da98bcb6b02cf2b084982
+--- /dev/null
++++ b/requirements.txt
+@@ -0,0 +1 @@
++playwright>=1.41.0
