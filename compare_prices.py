@@ -213,7 +213,7 @@ def print_results(results: List[PriceResult]) -> None:
         print(format_result(result))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  #An example of a hotel in Tokyo
     query = Query(
         hotel_name="Hotel Keihan Tsukiji Ginza Grande",
         city="Tokyo",
