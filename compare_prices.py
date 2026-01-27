@@ -62,7 +62,6 @@ def extract_price_number(text: Optional[str]) -> Optional[float]:
         .replace("US$", "")
         .replace("USD", "")
         .replace("RMB", "")
-        .replace("円", "")
         .replace(",", "")
         .strip()
     )
